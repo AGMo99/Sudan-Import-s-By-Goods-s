@@ -11,7 +11,7 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
 #Data
 
-Data = pd.read_csv(r'C:\Users\AG\Documents\Sudanese Imports by Goods.csv')
+Data = pd.read_csv(r'...\Sudanese Imports by Goods.csv')
 
 Data = Data.drop(columns = 'Unnamed: 0')
 
